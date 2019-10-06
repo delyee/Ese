@@ -1,5 +1,4 @@
 from sys import argv
-from string import punctuation
 from collections import Counter
 
 CHAR_SPLIT = argv[2]
