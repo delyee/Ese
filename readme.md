@@ -13,14 +13,13 @@ lyVYQ2P/mRTblxb/
 rule eb413cc73b3942c4a65e54472ffdcd2d: phpshell
 {
     meta:
-        description = ""
         author = "delyee"
         date = "07.10.2019"
-        sha256sum = "eb4692ca53eb5d1a5917a088a1ca5946bc48a27d7a87e969de645a86a12c1d12" // sha256sum shell.php
+        sha256sum = "eb4692ca53eb5d1a5917a088a1ca5946bc48a27d7a87e969de645a86a12c1d12"
     strings:
-        $s1 = "<?php eval(gzinflate(base64_decode('HZzHkuNQdgV/ZXYzE1jAu5BCE/CW8JYbBbz3Hl8vlhbdm64iAbx3z8lkg/jP//z3f"
-        $s2 = "Z6/kdxJv2/qrcZyz7Zi3"
-        $s3 = "lyVYQ2P/mRTblxb/"
+        $ = "<?php eval(gzinflate(base64_decode('HZzHkuNQdgV/ZXYzE1jAu5BCE/CW8JYbBbz3Hl8vlhbdm64iAbx3z8lkg/jP//z3f"
+        $ = "Z6/kdxJv2/qrcZyz7Zi3"
+        $ = "lyVYQ2P/mRTblxb/"
     condition:
         all of them
 }
