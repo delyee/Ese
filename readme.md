@@ -1,6 +1,13 @@
 ### alpha version!
 
-#### Example of pattern extraction and writing the rule:
+---
+
+# Why need `--generic`?:
+[![asciicast](https://asciinema.org/a/vIKE6xk4eQ3pS7WKkmcD1rmtx.svg)](https://asciinema.org/a/vIKE6xk4eQ3pS7WKkmcD1rmtx)
+
+
+---
+# Example of pattern extraction and writing the rule:
 
 1. Start:
 ```
@@ -30,8 +37,8 @@ rule f49dd66a179e44e9a0a5a173676a4525: phpshell
 
 ![result](./screenshots/sample1_wso.php_result.png)
 
----
-
-#### Other results:
+5. Results for other samples:
 
 ![result](./screenshots/other_results.png)
+
+---
