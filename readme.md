@@ -1,16 +1,16 @@
 ### alpha version!
 
-#### Example pattern extraction and spelling the rule:
+#### Example of pattern extraction and writing the rule:
 
-- Get patterns:
+1. Get patterns:
 ```
 ➜  Ese git:(master) ✗ python3 ese.py -f malware/sample1_wso.php
 ```
-- See output:
+2. See output:
 
 ![output](./screenshots/sample1_wso.php.png)
 
-- Write example rule:
+3. Write example rule:
 ```
 rule f49dd66a179e44e9a0a5a173676a4525: phpshell
 {
@@ -26,9 +26,11 @@ rule f49dd66a179e44e9a0a5a173676a4525: phpshell
 }
 ```
 
-- Result:
+4. Result:
 
 ![result](./screenshots/sample1_wso.php_result.png)
+
+---
 
 #### Other results:
 
