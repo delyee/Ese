@@ -2,7 +2,7 @@
 
 #### Example of pattern extraction and writing the rule:
 
-1. Get patterns:
+1. Start:
 ```
 ➜  Ese git:(master) ✗ python3 ese.py -f malware/sample1_wso.php
 ```
