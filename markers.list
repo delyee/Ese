@@ -1,0 +1,15 @@
+eval
+base64_decode
+str_rot13
+gzinflate
+gzuncompress
+strrev
+gzdecode
+$GLOBALS
+Array
+<?php
+?>
+$_POST
+$_GET
+function
+return
