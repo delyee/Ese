@@ -2,7 +2,7 @@
 
 ---
 
-# Why need `--generic`?:
+## Why need `--generic`?:
 [![asciicast](https://asciinema.org/a/vIKE6xk4eQ3pS7WKkmcD1rmtx.svg)](https://asciinema.org/a/vIKE6xk4eQ3pS7WKkmcD1rmtx)
 
 
