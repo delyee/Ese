@@ -128,7 +128,8 @@ with open(args.filepath) as f:
 mf = MalwareFolder()
 
 for s, c in count.most_common():
-    if len(s) > 160:
+    # notebook display ._.
+    if len(s) > 150:
         continue
     _mf_result = mf.search(s)
     if isDangerString(s):
